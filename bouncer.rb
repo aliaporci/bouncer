@@ -8,7 +8,7 @@ def check_age age_input
     slightly_older_young_adult = "#{young_adult} Oh, and drink as well? Perhaps not so little."
     puts slightly_older_young_adult
   else
-    ancient_young_adult = slightly_older_young_adult + " Ooooh, even rent a car! You're practically dead!"
+    ancient_young_adult = "#{slightly_older_young_adult} Ooooh, even rent a car! You're practically dead!"
     puts ancient_young_adult
   end
 end
