@@ -5,10 +5,10 @@ def check_age age_input
     young_adult = "You can smoke AND vote; how nice, little one."
     puts young_adult
   elsif age_input >= 21 && age_input < 25
-    slightly_older_young_adult = "#{young_adult} Oh, and drink as well? Perhaps not so little."
+    slightly_older_young_adult = "You can smoke AND vote; how nice, little one. Oh, and drink as well? Perhaps not so little."
     puts slightly_older_young_adult
   else
-    ancient_young_adult = "#{slightly_older_young_adult} Ooooh, even rent a car! You're practically dead!"
+    ancient_young_adult = "You can smoke AND vote; how nice, little one. Oh, and drink as well? Perhaps not so little. Ooooh, even rent a car! You're practically dead!"
     puts ancient_young_adult
   end
 end
